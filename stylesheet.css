@@ -143,3 +143,38 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+
+/* ===== Art Page Custom Styling ===== */
+
+body.art-page {
+  background-color: #fdf6f0; /* soft off-white for an artistic vibe */
+  color: #333;
+}
+
+body.art-page a {
+  color: #b85c38; /* warm earthy red */
+}
+
+body.art-page a:hover {
+  color: #a3472a;
+}
+
+body.art-page heading {
+  font-family: 'Georgia', serif;
+  color: #b85c38;
+  font-size: 2.8em;
+}
+
+body.art-page p {
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+body.art-page table {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
