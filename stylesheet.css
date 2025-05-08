@@ -144,26 +144,25 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-
-
-/* ===== Art Page Custom Styling ===== */
+/* ===== Art Page Styling ===== */
 
 body.art-page {
-  background-color: #fdf6f0; /* soft off-white for an artistic vibe */
-  color: #333;
+  background-color: #EFE7DA;
+  color: #5A5047;
+  font-family: 'Georgia', serif;
 }
 
 body.art-page a {
-  color: #b85c38; /* warm earthy red */
+  color: #3f3127;
 }
 
 body.art-page a:hover {
-  color: #a3472a;
+  color: #A57766;
 }
 
 body.art-page heading {
   font-family: 'Georgia', serif;
-  color: #b85c38;
+  color: #3f3127;
   font-size: 2.8em;
 }
 
@@ -173,8 +172,77 @@ body.art-page p {
 }
 
 body.art-page table {
-  background: white;
+  background: #F5F5EB;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
+
+
+/* ===== Layout Wrapper ===== */
+
+.gallery-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* ===== Section Title ===== */
+
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 60px;
+  color: #706862;
+  font-family: 'Georgia', serif;
+}
+
+
+/* ===== Polaroid-Style Gallery ===== */
+
+.polaroid-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.polaroid-card {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  padding: 10px 10px 30px 10px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.polaroid-card:hover {
+  transform: scale(1.02);
+}
+
+.polaroid-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.caption {
+  margin-top: 12px;
+  font-size: 14px;
+  font-style: italic;
+  color: #5A5047;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.polaroid-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
